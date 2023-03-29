@@ -26,12 +26,15 @@ text-align: center;
 display: flex;
 justify-content: center;">SURVEY MONKEY</header>
 
+     <a  style="text-align:right;size: 100px; color:aliceblue; padding:10PX;
+     box-sizing: content-box;"href="../HTML/index.html" target="_blank"> GO BACK</a>
+
 
     <body>
         <div class="box">
             <DIV CLASS="CONTAINER">
                 <FORM action="../API/rajistration.php" method="host">
-                    <header>RAJISTRATION PAGE </header>
+                    <header style="padding: 0  0 50PX 0; font-family:'Times New Roman', Times, serif; font-size: 40PX;" >RAGISTER HEAR </header>
                     <br>
 
                     <B>STUDENT NAME </B>
@@ -46,7 +49,7 @@ justify-content: center;">SURVEY MONKEY</header>
                     <input TYPE="date">
                     <b>STATE</b>
 
-                    <SELECT name="STATE" ID="CITY ">
+                    <SELECT  STYLE =" font-size: 15PX; color: black;"name="STATE" ID="CITY ">
 
                         <OPTION VALUR="ANDRA PRADESH">ANDRA PRADESH</OPTION>
                         <OPTION VALUR="AUNANCHAL PRADESH">AUNANCHAL PRADESH</OPTION>
@@ -97,10 +100,12 @@ justify-content: center;">SURVEY MONKEY</header>
          background-clip: border-box;" placeholder="CURRENT ADDRESS">
                  </TEXTAREA>
                     <b>PASSWORD</b>
-                    <input type="password" name="password" placeholder="Password:">
+                    <input type="password" name="password" placeholder="Password: ">
                     <input TYPE="password" name="cpassword" placeholder="Repeat-Password:">
                     <b></b>
-                    <input style="  padding: 20x; font-size: 20px; ;" type="submit" placeholder=" Submit ">
+                    <div class="input-field">
+                        <input  type="submit " class="submit" value="Submit "  id="">
+                    </div>
                 </FORM>
 
             </DIV>
